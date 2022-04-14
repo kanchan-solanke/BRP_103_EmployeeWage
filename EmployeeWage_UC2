@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<body>
+<script>
+var random =Math.floor(Math.random()*10)%2
+console.log(random)
+if(random==1)
+{
+    console.log("Employee is present")
+}
+else
+{
+console.log("Employee absent")
+}
+</script>
+</body>
+</html>
