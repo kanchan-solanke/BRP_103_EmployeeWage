@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<body>
+<script>
+
+const IS_PART_TIME = 1;
+const Emp_Rate_per_Hour = 20;
+
+   
+var empHrs = 0;
+var empWage = 0;
+var empCheck = Math.floor(Math.random() * 10) % 3;
+switch (empCheck) {
+case 1 :                             //IS_PART_TIME
+empHrs = 4;
+break;
+case 2 :                              //IS_FULL_TIME
+empHrs =8;
+break;
+default:
+empHrs = 0;
+}
+empWage = empHrs *  Emp_Rate_per_Hour;
+console.log("Emp Wage:"+ empWage);
+
+</script>
+</head>
+</html>
